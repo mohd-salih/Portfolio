@@ -1,4 +1,4 @@
-# Hello, Username 👋  
+# Hello, Salih 👋  
 <a href="https://www.linkedin.com"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 I’m a cybersecurity enthusiast with hands-on experience in SIEM tools, network traffic analysis, and real-time log monitoring. Currently working toward building a strong foundation in threat detection and incident response, with a goal of becoming a Tier 1 SOC Analyst.
