@@ -1,5 +1,5 @@
 # Hello, Username 👋  
-<a href="https://www.linkedin.com/in/gopunairofficial"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://www.linkedin.com"><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 I’m a cybersecurity enthusiast with hands-on experience in SIEM tools, network traffic analysis, and real-time log monitoring. Currently working toward building a strong foundation in threat detection and incident response, with a goal of becoming a Tier 1 SOC Analyst.
 
@@ -31,4 +31,27 @@ To join a Security Operations Center (SOC) as a Tier 1 Analyst where I can apply
 ![Wireshark](https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=wireshark&logoColor=white)
 ![Snort](https://img.shields.io/badge/-Snort-EF3B2D?&style=for-the-badge&logo=snort&logoColor=white)
 
-### SIEM & Log Management
+### SIEM & Log Management  
+![Splunk](https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=splunk&logoColor=white)
+![QRadar](https://img.shields.io/badge/-QRadar-052FAD?&style=for-the-badge&logo=ibm&logoColor=white)
+![ELK Stack](https://img.shields.io/badge/-ELK_Stack-005571?&style=for-the-badge&logo=elastic&logoColor=white)
+
+### Web & Systems  
+![Ubuntu](https://img.shields.io/badge/-Ubuntu-E95420?&style=for-the-badge&logo=ubuntu&logoColor=white)
+![Apache](https://img.shields.io/badge/-Apache_Web_Server-D22128?&style=for-the-badge&logo=apache&logoColor=white)
+
+---
+
+## 📂 Key Projects
+
+- **[SIEM Deployment and Real-Time Dashboard using Splunk and Zeek](https://medium.com/@ggopu7347/building-a-real-time-dashboard-in-splunk-using-zeek-logs-65c9f23db724)**  
+  Deployed Zeek as a network monitor and forwarded logs to Splunk for live dashboards and security analysis.
+
+- **[ELK SIEM Setup](https://medium.com/@ggopu7347/step-by-step-guide-to-installing-elk-stack-on-ubuntu-a04528459d88)**  
+  Configured Elasticsearch, Logstash, and Kibana for centralized log collection and threat visualization.
+
+---
+
+## 🏅 Certification
+
+![CSA](https://img.shields.io/badge/-Certified_SOC_Analyst_(CSA)-008000?&style=for-the-badge&logo=ec-council&logoColor=white)
