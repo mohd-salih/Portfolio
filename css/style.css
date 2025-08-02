@@ -426,8 +426,8 @@ h3.my-profession
 .about .about-content .experience,
 .about .about-content .internship
 {
-    flex:0 0 50%;
-    max-width: 50%;
+    flex:0 0 100%;
+    max-width: 100%;
     margin-top: 30px;
 }
 .about .about-content h3.title
@@ -451,11 +451,19 @@ h3.my-profession
     width: 100%;
     position: relative;
 }
+.about .about-content .timeline .timeline-institute
+{
+    margin-top: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-black-800);
+    margin-bottom: 8px;
+}
 .about .about-content .timeline .timeline-item
 {
     position: relative;
     padding-left: 37px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 .about .about-content .timeline .timeline-item:last-child
 {
@@ -485,7 +493,7 @@ h3.my-profession
 {
     font-weight: 400;
     font-size: 14px;
-    margin-bottom: 12px;
+    margin-bottom: 5px;
     color: var(--text-black-700);
 }
 .about .about-content .timeline .timeline-date .fa
@@ -496,7 +504,7 @@ h3.my-profession
 {
     font-weight: 700;
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     text-transform: capitalize;
     color: var(--text-black-900);
 }
@@ -506,4 +514,72 @@ h3.my-profession
     font-size: 16px;
     text-align: justify;
     color: var(--text-black-700);
+}
+.about .about-content .timeline .timeline-item
+{
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.about .about-content .timeline .timeline-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.about .about-content .timeline .timeline-content-wrapper .timeline-text {
+    flex: 1;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* ===== Internship Certificate Image Container ===== */
+.timeline-image
+{
+    margin-top: 1px;
+    width: 100%;
+    max-width: 500px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(14, 9, 79, 0.15);
+}
+
+.timeline-image .image-stack
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* ===== Certificate Image Style ===== */
+.timeline-image .image-stack img
+{
+    width: 100%;
+    max-height: 220px; /* All images will now match this height */
+    object-fit: cover;
+    border-radius: 13px;
+    border: 1px solid #bf1414;
+    box-shadow: 0 0 20px rgba(31, 22, 166, 0.15);
+}
+/* ===== Internship Timeline Layout ===== */
+.main-intern
+{
+    /*background-color: #166030;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.big-div
+{
+    flex: 3;
+}
+.timeline-image
+{
+    flex: 1;
 }
